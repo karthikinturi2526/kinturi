@@ -3,7 +3,6 @@ package com.karthik.springcloud.dtos;
 import java.math.BigDecimal;
 
 public class Coupon {
-	
 	private Long id;
 	private String code;
 	private BigDecimal discount;
@@ -34,5 +33,6 @@ public class Coupon {
 	public void setExpDate(String expDate) {
 		this.expDate = expDate;
 	}
+
 
 }

@@ -8,7 +8,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Transient;
 
-
 @Entity
 public class Product {
 	
@@ -51,7 +50,5 @@ public class Product {
 	public void setCouponCode(String couponCode) {
 		this.couponCode = couponCode;
 	}
-
-	
 
 }
